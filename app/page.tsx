@@ -1,10 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-16">
+      <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 pt-16 overflow-hidden">
+        <Image
+          src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=2000&q=80"
+          alt="Musician performing with guitar"
+          fill
+          priority
+          className="object-cover opacity-30"
+        />
+        <div className="relative z-10 flex flex-col items-center">
         <p className="text-xs tracking-[0.4em] uppercase text-accent mb-6">
           Session Musician · Recording Artist
         </p>
@@ -30,6 +39,7 @@ export default function HomePage() {
           >
             Get in Touch
           </Link>
+        </div>
         </div>
       </section>
 
