@@ -9,7 +9,7 @@ export default function HomePage() {
           Session Musician · Recording Artist
         </p>
         <h1 className="text-6xl md:text-8xl font-light tracking-tight text-cream mb-6">
-          Chinh Dan
+          William
         </h1>
         <p className="max-w-lg text-neutral-400 leading-relaxed mb-10">
           I'm a session musician who specializes in guitar, bass, vocals, and

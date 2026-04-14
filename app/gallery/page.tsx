@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gallery — Chinh Dan",
-  description: "Photos and moments from Chinh Dan's performances and projects.",
+  title: "Gallery — William",
+  description: "Photos and moments from William's performances and projects.",
 };
 
 const items = [

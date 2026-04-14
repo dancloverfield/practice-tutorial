@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-neutral-600">
-          © 2025 Chinh Dan
+          © 2025 William
         </p>
       </div>
     </footer>

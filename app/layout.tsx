@@ -4,15 +4,15 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Chinh Dan — Session Musician",
+  title: "William — Session Musician",
   description:
     "Session musician specializing in guitar, bass, vocals, and songwriting. Based in Vancouver, BC, Canada.",
   openGraph: {
-    title: "Chinh Dan — Session Musician",
+    title: "William — Session Musician",
     description:
       "Session musician specializing in guitar, bass, vocals, and songwriting.",
     url: "https://chinh-dan.com",
-    siteName: "Chinh Dan",
+    siteName: "William",
   },
 };
 

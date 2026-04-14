@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Live Music — Chinh Dan",
-  description: "Live performances and music videos by Chinh Dan.",
+  title: "Live Music — William",
+  description: "Live performances and music videos by William.",
 };
 
 const performances = [

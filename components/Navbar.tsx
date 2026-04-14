@@ -23,7 +23,7 @@ export default function Navbar() {
           href="/"
           className="text-cream font-semibold tracking-widest uppercase text-sm"
         >
-          Chinh Dan
+          William
         </Link>
 
         {/* Desktop nav */}
