@@ -23,8 +23,8 @@ export default function HomePage() {
         <p className="max-w-lg text-neutral-400 leading-relaxed mb-10">
           I'm a session musician who specializes in guitar, bass, vocals, and
           songwriting, based in Vancouver, BC, Canada. Drawing inspiration from
-          RnB, indie, and alternative genres—performing both covers and original
-          compositions.
+          RnB, indie, and alternative genres — performing both covers and
+          original compositions.
         </p>
         <div className="flex gap-6">
           <Link
@@ -56,8 +56,8 @@ export default function HomePage() {
       <section className="py-20 px-6 border-t border-white/5">
         <div className="max-w-4xl mx-auto">
           <p className="section-title text-center">Instruments & Skills</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {["Guitar", "Bass", "Vocals", "Songwriting"].map((skill) => (
+          <div className="grid grid-cols-3 gap-6">
+            {["Guitar", "Vocals", "Songwriting"].map((skill) => (
               <div
                 key={skill}
                 className="border border-white/10 p-6 text-center hover:border-accent/50 transition-colors duration-200"
